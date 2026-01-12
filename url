@@ -1,0 +1,5 @@
+# di folder repo yang sesuai (branch main atau gh-pages)
+echo "www.gekbrandmin.com" > CNAME
+git add CNAME
+git commit -m "Add CNAME for custom domain"
+git push origin main          # ganti 'main' dengan branch Pages-mu jika beda
